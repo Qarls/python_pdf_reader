@@ -27,7 +27,7 @@ elif args["preprocess"] == "blur":
 # apply OCR to it
 filename = "{}.png".format(os.getpid())
 cv2.imwrite(filename, gray)
-text = pytesseract.image_to_string(Image.open(filename), lang='eng')
+text = pytesseract.image_to_string(Image.open(filename), lang='pol')
 os.remove(filename)
 print(text)
 # show the output images
