@@ -26,10 +26,7 @@ class Reader():
         return out
         
 
-
-
 reader = Reader('test1.pdf')
-
 reader.read(reader.load_and_convert())
 
 
