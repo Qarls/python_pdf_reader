@@ -24,10 +24,9 @@ class Reader():
                 out = f"{self.filename}.png"
                 img = output.writePNG(out)
         return out
-        
+          
 
-reader = Reader('test1.pdf')
-reader.read(reader.load_and_convert())
+
 
 
 
