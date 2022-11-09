@@ -1,5 +1,10 @@
-# python pdf reader
+# A command line Python OCR tool
 
-old Python OCR project I intend to work on in the future. 
-may or may not work in its current state, I honestly have no idea if it does
+ The tool uses Tesseract OCR via PyTesseract.
+
+If Tesseract OCR is not present, an installer will run (Windows-only for now)
+
+## This is a work in progress.
+
+The end goal is adding a parser to categorize documents based on keywords as well as a database.
 
