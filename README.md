@@ -1,4 +1,4 @@
-# A command line Python OCR tool
+# A command line Python OCR tool (discontinued)
 
  The tool uses Tesseract OCR via PyTesseract.
 
